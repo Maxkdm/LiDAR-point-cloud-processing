@@ -14,3 +14,11 @@ What is LiDAR Point Cloud Processing:
 
 - Instance Segmentation - Labelling each point into an object id specifying an individual object within that category
 
+What is DALES:
+
+- DALES object dataset offers a meticulously hand labelled dataset that contains 8 semantic object categories and over 20K hand - labelled instances.
+
+- DALES object presents one of the most extensive segmentation dataset taken with aerial lidar and which provides both urban and rural scenes.
+
+- DALES Object covers over ten square kilometres of aerial lidar with the eight object categories: ground, vegetation, buildings, cars, trucks, powerlines, poles and fences.
+- Instance segmentation is provided for all man made objects within the dataset.
