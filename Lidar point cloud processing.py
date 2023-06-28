@@ -13,7 +13,7 @@ import laspy
 
 # In[2]:
 
-
+#train_pointdata_Cloud.las is the .las file used to get pointcloud data. Its size is greater tha 25 MB and hence can't be uploaded
 pc_path = '.'
 pc_fn = 'train_pointdata_Cloud.las'
 pcl = laspy.read(os.path.join(pc_path,pc_fn))
