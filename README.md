@@ -41,24 +41,14 @@ Poles: power line poles, light poles, and transmission towers
 Fences: residential fences and highway barriers
 Buildings: residential, high-rises and warehouses
 
-We separated each tile into separate layers, with each layer only containing points of the same semantic class. We then performed an initial euclidean clustering on each semantic layer. The pseudo code roughly implements the K-d tree data structure algorithm.
+We separated each tile into separate layers, with each layer only containing points of the same semantic class. We then performed an initial euclidean clustering on each semantic layer. The code roughly implements the K-d tree data structure algorithm.
+
+4) Data set statistics and final data format -
+After labelling the dataset, we provide the entire dataset into two formats. The dataset is split randomly into a rough 70/30 training/testing split.
 
 
-Require:
-For each point pi  in the point cloud P ,we calculate k  neighbour
-Require: We define an empty list of clusters C, and a queue to be checked, Q
-for pi in P do
-      Add pi  to Q
-      for p  in Q  do
-          Get K neighbours for pi
-          for pk in K do
-              if  pk  not in a cluster then
-                  Add pk  to Q
-              end if
-          end for
-      end for
-      Label all points in Q as a new cluster in C and clear Q
-end for
+
+
 
 
 
