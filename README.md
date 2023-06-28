@@ -32,14 +32,14 @@ Processes:
 3) Semantic and Instance labelling - 
 Semantic labelling includes 
 
--Ground: impervious surfaces, grass, rough terrain
--Vegetation: trees, shrubs, hedges, bushes
--Cars: sedans, vans, SUVs
--Trucks: semi-trucks, box-trucks, recreational vehicles
--Power lines: transmission and distribution lines
--Poles: power line poles, light poles, and transmission towers
--Fences: residential fences and highway barriers
--Buildings: residential, high-rises and warehouses
+    - Ground: impervious surfaces, grass, rough terrain
+    - Vegetation: trees, shrubs, hedges, bushes
+    - Cars: sedans, vans, SUVs
+    - Trucks: semi-trucks, box-trucks, recreational vehicles
+    - Power lines: transmission and distribution lines
+    - Poles: power line poles, light poles, and transmission towers
+    - Fences: residential fences and highway barriers
+    - Buildings: residential, high-rises and warehouses
 
 We separated each tile into separate layers, with each layer only containing points of the same semantic class. We then performed an initial euclidean clustering on each semantic layer. The code roughly implements the K-d tree data structure algorithm.
 
